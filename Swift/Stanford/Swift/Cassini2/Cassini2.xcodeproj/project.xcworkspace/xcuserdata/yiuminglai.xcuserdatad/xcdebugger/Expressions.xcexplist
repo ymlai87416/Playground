@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "CassiniViewController.prepare(for:sender:):CassiniViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "DemoURLs.NASA[&quot;Cassini&quot;]">
+            </PersistentString>
+            <PersistentString
+               value = "URL(string: &quot;https://www.jpl.nasa.gov/images/cassini/20090202/pia03883-full.jpg&quot;)!">
+            </PersistentString>
+            <PersistentString
+               value = "DemoURLs.NASA">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

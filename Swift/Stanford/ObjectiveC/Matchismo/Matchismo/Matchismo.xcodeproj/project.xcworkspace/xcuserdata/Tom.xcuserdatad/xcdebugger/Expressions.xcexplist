@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[CardGameViewController updateUI]:CardGameViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[self.game length]">
+            </PersistentString>
+            <PersistentString
+               value = "[cardButton getBackgroundImage]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[PlayingCard match:]:PlayingCard.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.rank">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[CardGameViewController backgroundImageForCard:]:CardGameViewController.m">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

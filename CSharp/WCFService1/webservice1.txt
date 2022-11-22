@@ -1,0 +1,2 @@
+2017-03-08 00:30:58,382 [56] INFO Service1 - Calling GetData in service1
+2017-03-08 00:54:35,350 [45] INFO Service1 - Calling GetData in service1

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "ViewController.updateViewFromModel():ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "game.cards[9]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Concentration.chooseCard(at:):Concentration.swift">
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.flipCard(withEmoji:on:):ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "button.currentTitle == emoji">
+            </PersistentString>
+            <PersistentString
+               value = "button.currentTitle">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

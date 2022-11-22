@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "9B92F230-EB43-4194-9838-884031C070E3"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "64EE43C5-8EBA-43EA-AA46-CBCD484636E1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Cassini/DemoURLs.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "DemoURLs"
+            landmarkType = "14">
+            <Locations>
+               <Location
+                  uuid = "64EE43C5-8EBA-43EA-AA46-CBCD484636E1 - bb823be7a51aff0d"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "globalinit_33_1972DE813D8D90F30C16BC51F6AA2C91_func0"
+                  moduleName = "Cassini"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yiuminglai/GitProjects/SwiftPlayground/Stanford/Swift/Cassini/Cassini/DemoURLs.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "64EE43C5-8EBA-43EA-AA46-CBCD484636E1 - 86990f0f8f866b68"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Cassini.DemoURLs.stanford.unsafeMutableAddressor : Swift.Optional&lt;Foundation.URL&gt;"
+                  moduleName = "Cassini"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yiuminglai/GitProjects/SwiftPlayground/Stanford/Swift/Cassini/Cassini/DemoURLs.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "8">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

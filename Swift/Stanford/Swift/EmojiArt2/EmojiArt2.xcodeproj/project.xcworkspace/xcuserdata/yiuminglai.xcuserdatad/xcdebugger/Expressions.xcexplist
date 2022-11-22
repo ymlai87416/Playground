@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "EmojiArtViewController.save(_:):EmojiArtViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "document">
+            </PersistentString>
+            <PersistentString
+               value = "emojiArt">
+            </PersistentString>
+            <PersistentString
+               value = "document?.emojiArt != nil">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

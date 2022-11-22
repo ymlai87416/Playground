@@ -1,0 +1,5 @@
+2017-03-08 00:30:56,601 [21] INFO Service1 - Calling GetData from wcf service 2 controller.
+2017-03-08 00:53:54,062 [13] INFO Service2 - Calling GetData from wcf service 2 controller.
+2017-03-08 00:54:34,813 [14] INFO Service2 - Calling GetData from wcf service 2 controller.
+2017-03-08 00:54:34,820 [14] INFO Interceptor - Before invoke.
+2017-03-08 00:54:35,404 [14] INFO Interceptor - After invoke.
