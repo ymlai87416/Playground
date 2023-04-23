@@ -15,6 +15,9 @@ The kernel header is at /usr/src/kernels/6.2.11-200.fc37.aarch64
 sudo dnf install kernel-devel-$(uname -r)
 ```
 
+- Write the code
+Please refer to Linux Device Driver 3rd Edition
+
 - Load the module 
 
 ```sh
