@@ -1,0 +1,114 @@
+Delivered-To: ymlai87416@gmail.com
+Received: by 2002:a17:902:9a89:b0:1aa:ce5f:d758 with SMTP id w9csp815125plp;
+        Sat, 29 Apr 2023 21:54:44 -0700 (PDT)
+X-Received: by 2002:a7b:c7d4:0:b0:3f1:9ca1:cac3 with SMTP id z20-20020a7bc7d4000000b003f19ca1cac3mr7287662wmk.34.1682830484257;
+        Sat, 29 Apr 2023 21:54:44 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1682830484; cv=none;
+        d=google.com; s=arc-20160816;
+        b=aJ1px7d+I0G2MtFBwqmnq0zwIfkcO+Fd+Kv17gR6phFMRbCaCsdgec0azgT94DhaUL
+         Iw8nWRXfUYMUAUWcQpqX981dX9Wng/FfFTKa+kecbTbW2GGcDxuzj42FVF5oOAG0iCHt
+         EROsBzNOGNmk6toOKsesGJG1GNarCs5g/PI5bY38ulR1DJA/9uEFHxZZTA+5peSgxHSZ
+         8RgMCUf2upGIgn7/gUu6N5wN/eAIblQsYO4pAz2xhfiWlUgYkNIY7Pl57BgDbeT7ADac
+         HyhB54HsJxOi+mJouIRDr2jQlN2oSoOd3/9BYkqseQTRDkq3KW0iU3SXwuAsIV/VDskT
+         4rdQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=content-transfer-encoding:mime-version:message-id:date:subject:to
+         :from:dkim-signature;
+        bh=/nZJHajK8Q+korCRPZf2DXJK+z18J6lH3oXFq/zl/5w=;
+        b=SwcXLNbfvWNoMpu7tsy4mKc6IPYJVFqq5VTjGPuEaT3WEl1KTfHwTUQv8KKphZ4/q0
+         pvkYo0JMvjpGHRtTPBLV9ZRE4gkBa4naVYt/ZF50EHL2Catbz9yLGSfajFF3Bl4ETAHL
+         2wU2bKJ7FJRI1WSBc8XR12jU9G0IoQEMOIGuGduOCwA8b7FF2OsFnU2mFno5w56W0lIR
+         3fzejWCE7WELbunTltfjJ67nv5pK50TFST8oaUtaXglScoNHRXbudxa8TLijmbgeqsYh
+         QVXBJTmycFkOvQG6Q10sEezISuBFNNskxRCwxw5/Fc9pywCDguR4iB3NxMdeUOw4hX2f
+         KJtw==
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@gmail.com header.s=20221208 header.b=sVjPh0jh;
+       spf=pass (google.com: domain of ymlai87416.oss@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=ymlai87416.oss@gmail.com;
+       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com
+Return-Path: <ymlai87416.oss@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id 16-20020a05600c029000b003f18e212c00sor6842971wmk.22.2023.04.29.21.54.44
+        for <ymlai87416@gmail.com>
+        (Google Transport Security);
+        Sat, 29 Apr 2023 21:54:44 -0700 (PDT)
+Received-SPF: pass (google.com: domain of ymlai87416.oss@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@gmail.com header.s=20221208 header.b=sVjPh0jh;
+       spf=pass (google.com: domain of ymlai87416.oss@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=ymlai87416.oss@gmail.com;
+       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20221208; t=1682830483; x=1685422483;
+        h=content-transfer-encoding:mime-version:message-id:date:subject:to
+         :from:from:to:cc:subject:date:message-id:reply-to;
+        bh=/nZJHajK8Q+korCRPZf2DXJK+z18J6lH3oXFq/zl/5w=;
+        b=sVjPh0jhA+ZirwOWVar+XjrEl5nRFZgzANHbC4sKiphVW3rU48BdV/9lEEd7dChsRx
+         0FdGwpMOQDdmPoJGaaaYl5ZkUi2OKpHVKqEgXYcw7bu0Cx5JZOnKs/ur6ZBbQU0cxDOQ
+         Iy8GXrZSewdKnukURCam8gIP0NKltOYxo1cwsmIfNRuaH0+QWY/X09HVlELT2BU5RYRK
+         tfdddX+dmQwu9CyOQdNWH1t2WSzLSWTUdcKG/lHc21XF5AvjhJum7BKaTbWflW8arJN0
+         u8R1GjgMd7jXdHZGbfUPJ39ZbPqoZbOZywNyvUMMHmByXBoZULbYVMyciwMElkNFlOHf
+         +/9g==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20221208; t=1682830483; x=1685422483;
+        h=content-transfer-encoding:mime-version:message-id:date:subject:to
+         :from:x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=/nZJHajK8Q+korCRPZf2DXJK+z18J6lH3oXFq/zl/5w=;
+        b=km+R+KzyoXgW0VI5yE4vCd0S6nf8cMyH/E3W+HwNc1CS9qxo0rkiiM88TpitHkDpRU
+         /hzVRZbP0NAet+altIN5T7Qy2aMezjUhS4rbnHLvYFmT0QKrhJO3FR687atNBk66zstz
+         tzOTULJVzfBeUdGGpOW7aOKBUXzob0ggso0GSlXxz8byN7f/AHCUG6QfsVTeQ9Tr181t
+         lobwT4Aw43on9IemnQCMZkI+OdMXJpRzmo+gR9JfFsoV1pq+yo8p+giUAZjfIUNtiPEp
+         ZK4z5evzXH5P8gQlv5AxG6avgH5oxAkzLSnx4eRwNaHYAUMRq7EKdAJCKMqB2bnY452b
+         gJIw==
+X-Gm-Message-State: AC+VfDyu/rVub4On0U5l8SuAVpT5ywWdBG0aF3sv5DQQyA1xw6tmLm51
+	bekON5HGTlcz08z8jv4V4LRJfgAkPR32r2Cz
+X-Google-Smtp-Source: ACHHUZ5zVGeMxTEc8uiUqq6JBbPeLmncveLbquutwi+gXEvVj7Ej3ZR9cF5GhqkoSHiuiPGtp5ojkg==
+X-Received: by 2002:a7b:c847:0:b0:3eb:37ce:4c3d with SMTP id c7-20020a7bc847000000b003eb37ce4c3dmr7372685wml.38.1682830483399;
+        Sat, 29 Apr 2023 21:54:43 -0700 (PDT)
+Return-Path: <ymlai87416.oss@gmail.com>
+Received: from fedora (33bbe00f.skybroadband.com. [51.187.224.15])
+        by smtp.gmail.com with ESMTPSA id r3-20020a05600c35c300b003f1836c98b7sm30182713wmq.48.2023.04.29.21.54.42
+        for <ymlai87416@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Sat, 29 Apr 2023 21:54:42 -0700 (PDT)
+From: Tom Lai <ymlai87416.oss@gmail.com>
+X-Google-Original-From: Tom Lai <ymlai87416@gmail.com>
+Received: from fedora (localhost [127.0.0.1])
+	by fedora (8.17.1/8.17.1) with ESMTPS id 33U4sgmT049000
+	(version=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384 bits=256 verify=NOT)
+	for <ymlai87416@gmail.com>; Sun, 30 Apr 2023 05:54:42 +0100
+Received: (from tom@localhost)
+	by fedora (8.17.1/8.17.1/Submit) id 33U4sf3e048996
+	for ymlai87416@gmail.com; Sun, 30 Apr 2023 05:54:41 +0100
+To: ymlai87416@gmail.com
+Subject: [PATCH] Eudyptula task 3 tom-lai
+Date: Sun, 30 Apr 2023 05:49:35 +0100
+Message-Id: <20230430044934.48954-1-ymlai87416@gmail.com>
+X-Mailer: git-send-email 2.40.0
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+
+Add eudyptula to version string, here is the result.
+[tom@fedora email-test-drive]$ uname -r
+6.3.0-eudyptula-g457391b03803-dirty
+
+Signed-off-by: Tom Lai <ymlai87416@gmail.com>
+
+---
+ Makefile | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/Makefile b/Makefile
+index f5543eef4f82..aac31193ca3e 100644
+--- a/Makefile
++++ b/Makefile
+@@ -2,7 +2,7 @@
+ VERSION = 6
+ PATCHLEVEL = 3
+ SUBLEVEL = 0
+-EXTRAVERSION =
++EXTRAVERSION = -eudyptula
+ NAME = Hurr durr I'ma ninja sloth
+ 
+ # *DOCUMENTATION*
+-- 
+2.40.0
+

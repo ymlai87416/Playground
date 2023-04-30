@@ -21,13 +21,13 @@ Please refer to Linux Device Driver 3rd Edition
 - Load the module 
 
 ```sh
-sudo insmod hello.ko
+sudo insmod ./hello.ko
 ```
 
 - Unload the module
 
 ```sh
-sudo rmmod hello.ko
+sudo rmmod hello
 ```
 
 - Check that the module is loaded
