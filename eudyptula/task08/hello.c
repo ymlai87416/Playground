@@ -3,7 +3,7 @@
 
 MODULE_LICENSE("Dual BSD/GPL");
 MODULE_AUTHOR("ymlai87416");
-MODULE_DESCRIPTION("Eudyptula challenge task 1");
+//MODULE_DESCRITION("Eudyptula challenge task 1");
 
 static int hello_init(void){
     printk(KERN_ALERT "Hello World!\n");
